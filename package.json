@@ -25,10 +25,18 @@
   },
   "homepage": "https://github.com/dushimeemma/eco-250-backend#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "5",
+    "sequelize-cli": "^6.2.0",
+    "sequelize-slugify": "^1.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -38,6 +46,8 @@
     "@babel/preset-env": "^7.14.2",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.3"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-prettier": "^3.4.0"
   }
 }
